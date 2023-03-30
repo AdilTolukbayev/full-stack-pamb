@@ -42,4 +42,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
       - name: inFolder
-        run: cd react-github-pages npm start
+        run: cd react-github-pages 
+      - name: check folder
+        run: ls
