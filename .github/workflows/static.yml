@@ -41,5 +41,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-      - name: Push
-        run: ls
+      - name: inFolder
+        run: cdreact-github-pages
+      - name: deploy react
+        run: npm start
